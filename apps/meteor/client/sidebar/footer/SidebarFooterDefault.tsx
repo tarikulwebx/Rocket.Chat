@@ -36,7 +36,8 @@ const SidebarFooterDefault = (): ReactElement => {
 					__html: logo,
 				}}
 			/>
-			<SidebarFooterWatermark />
+			{/* <SidebarFooterWatermark /> */}
+			<h1 style={{padding: "0 16px 10px"}}>Custom text!</h1>
 		</Footer>
 	);
 };
